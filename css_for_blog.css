@@ -16,7 +16,7 @@ body {
 }
 
 /*上部圖片設定*/
-#dcard {
+#title_img {
 	display: block;
 	margin: auto;
 	height: 250px;
@@ -137,6 +137,13 @@ body {
 	margin-top: 105px;
 	color: #AAAAAA;
 }
+.data_bar {
+	height: 20px;
+	width: 100%;
+	/*for test*/
+	background-color: red;
+}
+
 
 /*文章小頁面屬性設定*/
 #inner_article {
@@ -168,4 +175,20 @@ body {
 	margin:auto;
 	width: 50%;
 	height: 5vh;
+}
+
+/*article block文字設定*/
+.title {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 15px;
+	/*test*/
+	/*background-color: red;*/
+}
+.type {
+	font-size: 17px;
+	margin: auto;
+	margin-left: 20px;
+	/*test*/
+	/*background-color: blue;*/
 }
